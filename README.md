@@ -8,13 +8,13 @@ In this module, we'll cover an additional R data type called lists. Lists are so
 **Contents**
 
 - [Resources](#resources)
-- [Lists](#lists)
-- [Data Frames](#data-frames)
-  - [Creating Data Frames](#creating-data-frames)
-  - [Describing Dataframes](#describing-dataframes)
-  - [Accessing Data in Data Frames](#accessing-data-in-data-frames)
-- [Reading CSV Data](#reading-csv-data)
-  - [Factor Variables](#factor-variables)
+- [What is a List?](#what-is-a-list)
+  - [Creating Lists](#creating-lists)
+  - [Accessing Lists](#accessing-lists)
+  - [List Indicies](#list-indicies)
+    - [Single vs. Double Brackets](#single-vs-double-brackets)
+  - [Modifying Lists](#modifying-lists)
+- [The `tapply()` Function](#the-tapply-function)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
