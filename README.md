@@ -14,7 +14,7 @@ In this module, we'll cover an additional R data type called lists. Lists are so
   - [List Indicies](#list-indicies)
     - [Single vs. Double Brackets](#single-vs-double-brackets)
   - [Modifying Lists](#modifying-lists)
-- [The `tapply()` Function](#the-tapply-function)
+- [The `lapply()` Function](#the-lapply-function)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -209,7 +209,7 @@ print(a.list)
 
 For practice working with lists, see [exercise-1](exercise-1).
 
-## The `tapply()` Function
+## The `lapply()` Function
 Since everything is a vector in R, and most functions are _vectorized_, can can pass most functions (e.g., `paste()`, `round()`, etc) a vector and the function will be applied to each item in the vector. It "just works". But if we want to apply a function to each item in a _list_, we need to put in a bit more effort.
 
 In particular, we need to use a function called **`lapply()`** (for _list apply_). This function takes two arguments: the first is a list or vector we want to modify, and the second is a function we want to "apply" to each item in that list. For example:
