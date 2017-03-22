@@ -1,24 +1,9 @@
-# Module 8: Introduction to Lists
+# Introduction to Lists
 
-## Overview
 In this module, we'll cover an additional R data type called lists. Lists are somewhat similar to vectors, but can store more types of data and more details _about_ that data (with some cost). Lists are R's version of a **Map**, which is a common and extremely useful way of organizing data in a computer program. Moreover: lists are used to create _data frames_, which is the primary data storage type we'll use for working with sets of real data in R. This module will cover how to create and access elements in a list, as well as how to apply functions to lists or vectors.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Helpful links:
 
-- [Resources](#resources)
-- [What is a List?](#what-is-a-list)
-  - [Creating Lists](#creating-lists)
-  - [Accessing Lists](#accessing-lists)
-  - [List Indicies](#list-indicies)
-    - [Single vs. Double Brackets](#single-vs-double-brackets)
-  - [Modifying Lists](#modifying-lists)
-- [The `lapply()` Function](#the-lapply-function)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
 - [R Tutorial: Lists](http://www.r-tutor.com/r-introduction/list)
 - [R Tutorial: Named List Members](http://www.r-tutor.com/r-introduction/list/named-list-members)
 - [StackOverflow: Single vs. double brackets](http://stackoverflow.com/questions/1169456/in-r-what-is-the-difference-between-the-and-notations-for-accessing-the)
