@@ -1,24 +1,9 @@
-# Module 8: Introduction to Lists
+# Introduction to Lists
 
-## Overview
 In this module, we'll cover an additional R data type called lists. Lists are somewhat similar to vectors, but can store more types of data and more details _about_ that data (with some cost). Lists are R's version of a **Map**, which is a common and extremely useful way of organizing data in a computer program. Moreover: lists are used to create _data frames_, which is the primary data storage type we'll use for working with sets of real data in R. This module will cover how to create and access elements in a list, as well as how to apply functions to lists or vectors.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Helpful links:
 
-- [Resources](#resources)
-- [What is a List?](#what-is-a-list)
-  - [Creating Lists](#creating-lists)
-  - [Accessing Lists](#accessing-lists)
-  - [List Indicies](#list-indicies)
-    - [Single vs. Double Brackets](#single-vs-double-brackets)
-  - [Modifying Lists](#modifying-lists)
-- [The `lapply()` Function](#the-lapply-function)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
 - [R Tutorial: Lists](http://www.r-tutor.com/r-introduction/list)
 - [R Tutorial: Named List Members](http://www.r-tutor.com/r-introduction/list/named-list-members)
 - [StackOverflow: Single vs. double brackets](http://stackoverflow.com/questions/1169456/in-r-what-is-the-difference-between-the-and-notations-for-accessing-the)
@@ -207,7 +192,7 @@ print(a.list)
 ```
 
 
-For practice working with lists, see [exercise-1](exercise-1).
+For practice working with lists, see [exercise-1](http://github.com/info201-s17/m9-lists/tree/master/exercise-1).
 
 ## The `lapply()` Function
 Since everything is a vector in R, and most functions are _vectorized_, can can pass most functions (e.g., `paste()`, `round()`, etc) a vector and the function will be applied to each item in the vector. It "just works". But if we want to apply a function to each item in a _list_, we need to put in a bit more effort.
@@ -263,4 +248,4 @@ greetings <- lapply(names, Greet)
 
 Additionall, `lapply()` is a member of the `"*apply()"` family of functions; a set of functions that each starts with a different letter and applies to a different data structure, but otherwise all work basically the same. For example, `lapply()` is used for lists, while `sapply()` (simplified apply) works well for vectors. We'll look at more `*apply()` functions throughout the course.
 
-For practice working with lists, see [exercise-2](exercise-2).
+For practice working with lists, see [exercise-2](http://github.com/info201-s17/m9-lists/tree/master/exercise-2).
