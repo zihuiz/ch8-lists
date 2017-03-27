@@ -192,7 +192,7 @@ print(a.list)
 ```
 
 
-For practice working with lists, see [exercise-1](exercise-1).
+For practice working with lists, see [exercise-1](http://github.com/info201-s17/m9-lists/tree/master/exercise-1).
 
 ## The `lapply()` Function
 Since everything is a vector in R, and most functions are _vectorized_, can can pass most functions (e.g., `paste()`, `round()`, etc) a vector and the function will be applied to each item in the vector. It "just works". But if we want to apply a function to each item in a _list_, we need to put in a bit more effort.
@@ -248,4 +248,4 @@ greetings <- lapply(names, Greet)
 
 Additionall, `lapply()` is a member of the `"*apply()"` family of functions; a set of functions that each starts with a different letter and applies to a different data structure, but otherwise all work basically the same. For example, `lapply()` is used for lists, while `sapply()` (simplified apply) works well for vectors. We'll look at more `*apply()` functions throughout the course.
 
-For practice working with lists, see [exercise-2](exercise-2).
+For practice working with lists, see [exercise-2](http://github.com/info201-s17/m9-lists/tree/master/exercise-2).
